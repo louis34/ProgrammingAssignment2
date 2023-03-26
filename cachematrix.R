@@ -23,8 +23,6 @@ makeCacheMatrix <- function(x = matrix()) {
       list(set = set, get = get, setinv = setinv, getinv = getinv)
 }
 
-
-
 "The cacheSolve() function takes in a cache matrix object and retrieves the inverse matrix 
 of the cache matrix object if it has already been calculated. If the inverse matrix has not yet
 been computed, the function computes the inverse matrix. 
